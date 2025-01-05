@@ -1,0 +1,21 @@
+theme = "congo"
+baseURL = "https://whits.io"
+title = "whits.io"
+languageCode = "en-US"
+languageName = "English"
+weight = 1
+
+[params]
+    description = "Whit Huntley's Blog & About"
+
+[params.author]
+name = "Whit Huntley"
+image = "imgs/professionalA-tiny.jpg"
+headline = "Computer weirdo & CS undergrad @ UNCC."
+bio = "Computer person"
+links = [
+    { email = "mailto:hello@whits.io"},
+    { github = "https://github.com/whit-colm"},
+    { linkedin = "https://linkedin.com/in/whit-colm"},
+    { bluesky = "https://bsky.app/profile/whits.io" }
+]

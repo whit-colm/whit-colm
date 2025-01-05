@@ -1,0 +1,26 @@
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+    name = "Résumé"
+    url = "/docs/resume-r.pdf"
+    weight = 80
+    [main.params]
+        icon = "file-user-solid"
+        target = "_blank"
+
+[[main]]
+    name = "GitHub"
+    url = "https://github.com/"
+    weight = 80
+    [main.params]
+        icon = "github"
+        showName = false
+        target = "_blank"

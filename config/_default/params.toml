@@ -1,0 +1,35 @@
+colorScheme = "Sapphire"
+defaultAppearance = "dark"
+robots = "all"
+enableCodeCopy = true
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+  recentLimit = 4
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  showComments = false
+
+[list]
+  showBreadcrumbs = true
+  showSummary = false
+  showTableOfContents = true
+  showTaxonomies = false
+  groupByYear = false
+  paginationWidth = 1

@@ -1,0 +1,4 @@
+# config/_default/config.toml
+
+baseURL = "https://whits.io/"
+languageCode = "en"
