@@ -1,14 +1,4 @@
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 20
-
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 20
-
-[[main]]
     name = "Résumé"
     url = "/docs/resume-r.pdf"
     weight = 80
