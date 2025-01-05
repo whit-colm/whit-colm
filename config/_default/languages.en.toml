@@ -1,5 +1,5 @@
 theme = "congo"
-baseURL = "https://whits.io"
+#baseURL = "https://whits.io/"
 title = "whits.io"
 languageCode = "en-US"
 languageName = "English"
