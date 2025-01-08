@@ -1,12 +1,13 @@
 ---
 title: "From-Scratch Somewhat-Spicy Chile Con Queso"
-description: "Recipe for pretzel bites"
-summary: "guh"
+description: "Recipe for chile con queso"
+summary: "My partner's recipe for chile con queso, a fantastic thing to pair with the pretzel bites."
 author: ["Whit Huntley"]
 date: 1691338510
 draft: false
 links-as-notes: true
 papersize: A4
+showReadingTime: false
 tags: ["cooking"]
 ---
 

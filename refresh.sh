@@ -34,4 +34,3 @@ date
 # 7. The contents of .../public/ is moved into /var/www/whits.io/public/
 # 8. The new most recent hash is stored in ./main.hash, and the process repeats.
 # 9. Clean-up steps
-

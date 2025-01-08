@@ -1,0 +1,7 @@
+Contact: https://whits.io/sec-priv
+Expires: 2026-01-08T17:48:00.000Z
+Encryption: https://whits.io/docs/key.asc
+Acknowledgments: https://whits.io/sec-priv/#acknowledgments
+Preferred-Languages: en
+Canonical: https://whits.io/.well-known/security.txt
+Policy: https://whits.io/sec-priv/#security

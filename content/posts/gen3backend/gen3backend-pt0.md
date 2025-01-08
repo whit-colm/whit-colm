@@ -4,13 +4,13 @@ date: 2022-06-26T08:57:37-05:00
 description: "Recipe for pretzel bites"
 summary: " "
 draft: false
-tags: ["bdv3", "Kubernetes"]
+tags: ["bdv3", "kubernetes", "relevant"]
 ---
 
 # The Eternal Cycle
 
 An interesting fact is that my adventures in using a homebrewed, hacked-together Kubernetes cluster (Backend@Dotfile v2) were never published. It served me for more than a year, but I could never get a lot of the big kinks ironed out, and many services I used from B@Dv1 (ServerStack) didn't scale well from a single node Docker Swarm onto HA Kubernetes. This meant I could never get the git stuff setup properly enough to publish my website so it's been down for a year or so. If you are reading this, well that's good.
-
+s
 Fixing these issues would have required a horrific amount of effort to fix while maintaining an architecture I was not particularly fond of; the necessary improvements on top of that would not have been fathomable. With more physical servers at my disposal, I decided to scrap the whole thing and design from scratch, using what I learned to make something which would better support me going forward.
 
 # The Plan
@@ -58,9 +58,9 @@ There are a few additional modifications, mainly replacing NextCloud with the ne
 With a year of time to acquire new equipment, my rack is much more able to handle anything I throw at it:
 
 
-| Slots | Item | Desc |
+| Slot | Item | Desc |
 |:--:|:--|:--|
-| 12 | Ubiquiti UDM-Pro | My previous router solution using OPNSense gave me consistant issues, if I knew a lick about networking outside of the bare minimum I could have probably fixed it but I honestly didn't think it was worth the effort, not to mention that I live with other people who quite enjoy having internet at home. This just kinda works and that's all I need as k8s does its own networking stuff |
+| 12 | Ubiquiti UDM-Pro | My previous router solution using OPNSense gave me consistent issues, if I knew a lick about networking outside of the bare minimum I could have probably fixed it but I honestly didn't think it was worth the effort, not to mention that I live with other people who quite enjoy having internet at home. This just kinda works and that's all I need as k8s does its own networking stuff |
 | 11 | Ubiquiti USP-Pro | This cost too much and isn't relevant to anything, but I want to list what in all is in my rack |
 | 10 | HP DL360g9 - "*Formula*" | Slots 9 and 10 will serve as the control planes of the cluster. |
 | 9 | ??? - "*Urban*" | The second control plane, I have not bought it yet (I'm thinking a PowerEdge R430 though) but once I do I have seen that adding additional control planes is trivial with talos |

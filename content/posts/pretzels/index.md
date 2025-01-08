@@ -1,12 +1,13 @@
 ---
-title: "Simple from-scratch pretzel bites"
+title: "Simple From-Scratch Pretzel Bites"
 description: "Recipe for pretzel bites"
-summary: "guh"
+summary: "My recipe for soft, bite-sized pretzels; perfect for dipping."
 author: ["Whit Huntley"]
 date: 1691338510
 draft: false
 links-as-notes: true
 papersize: A4
+showReadingTime: false
 tags: ["cooking"]
 ---
 

@@ -1,19 +1,25 @@
 [[main]]
   name = "About"
-  pageRef = "about"
+  pageRef = "/about"
   weight = 20
 
 [[main]]
   name = "Blog"
-  pageRef = "posts"
+  pageRef = "/posts"
   weight = 20
+
+[[main]]
+    name = "Education"
+    url = "/edu"
+    weight = 50
 
 [[main]]
     name = "Résumé"
     url = "/docs/resume-r.pdf"
-    weight = 80
+    weight = 90
     [main.params]
         icon = "file-user-solid"
+        showName = true
         target = "_blank"
 
 [[main]]
@@ -24,3 +30,13 @@
         icon = "github"
         showName = false
         target = "_blank"
+
+[[footer]]
+    name = "Acknowledgements"
+    pageRef = "acknowledgements"
+    weight = 5
+
+[[footer]]
+    name = "Security & Privacy Notes"
+    pageRef = "sec-priv"
+    weight = 10

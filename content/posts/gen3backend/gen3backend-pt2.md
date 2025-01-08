@@ -4,7 +4,7 @@ description: "Recipe for pretzel bites"
 summary: "guh"
 date: 2022-07-16T12:13:01-05:00
 draft: false
-tags: ["bdv3", "Kubernetes"]
+tags: ["bdv3", "kubernetes", "relevant"]
 ---
 
 After bootstrapping, I my next steps were to make sure many of the services essential to my broader platform was installed.

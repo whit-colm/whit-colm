@@ -1,28 +1,29 @@
 colorScheme = "Sapphire"
 defaultAppearance = "dark"
-robots = "all"
 enableCodeCopy = true
+enableImageWebp = true
+enableRobotsTXT = true
 
 [homepage]
   layout = "profile"
-  showRecent = false
+  showRecent = true
   recentLimit = 4
 
 [article]
   showDate = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
-  editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
+  showEdit = false
+  editURL = "https://github.com/whit-colm/whitsio/tree/main/content/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   showWordCount = false
   showComments = false
 
@@ -33,3 +34,7 @@ enableCodeCopy = true
   showTaxonomies = false
   groupByYear = false
   paginationWidth = 1
+
+[footer]
+  showThemeAttribution = false
+  showAppearanceSwitcher = true

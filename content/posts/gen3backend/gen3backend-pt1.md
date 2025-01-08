@@ -4,7 +4,7 @@ description: "Recipe for pretzel bites"
 summary: "guh"
 date: 2022-06-26T11:59:15-05:00
 draft: false
-tags: ["bdv3", "Kubernetes"]
+tags: ["bdv3", "kubernetes", "relevant"]
 ---
 
 With my design outline done, I jumped headfirst into it.

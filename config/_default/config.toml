@@ -2,3 +2,5 @@
 
 baseURL = "https://whits.io/"
 languageCode = "en"
+defaultContentLanguage = "en"
+summaryLength = 0
