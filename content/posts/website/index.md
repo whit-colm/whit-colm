@@ -4,7 +4,7 @@ draft = false
 showReadingTime = true
 title = 'Bringing Back `whits.io`'
 summary = "After far too many years offline due to self-impose infrastructure obstacles, It's time to actually start using my website again."
-description = " "
+description = "Notes on relaunching my website"
 tags = ["relevant"]
 +++
 

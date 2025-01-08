@@ -1,9 +1,9 @@
 ---
 title: "[Backend@Dotfile v3] Part 2 - Essential Services"
-description: "Recipe for pretzel bites"
-summary: "guh"
+description: "Part 0 of docs reworking my Kubernetes Cluster"
+summary: "Part 0 of docs reworking my Kubernetes Cluster"
 date: 2022-07-16T12:13:01-05:00
-draft: false
+draft: true
 tags: ["bdv3", "kubernetes", "relevant"]
 ---
 

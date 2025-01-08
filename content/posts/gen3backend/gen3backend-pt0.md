@@ -1,9 +1,9 @@
 ---
 title: "[Backend@Dotfile v3] Part 0 - 'Episode III: Also Sprach Zarathustra'"
 date: 2022-06-26T08:57:37-05:00
-description: "Recipe for pretzel bites"
-summary: " "
-draft: false
+description: "Part 0 of docs reworking my Kubernetes Cluster"
+summary: "Part 0 of docs reworking my Kubernetes Cluster"
+draft: true
 tags: ["bdv3", "kubernetes", "relevant"]
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "[Backend@Dotfile v3] Part 1 - First Install"
-description: "Recipe for pretzel bites"
-summary: "guh"
+description: "Part 0 of docs reworking my Kubernetes Cluster"
+summary: "Part 0 of docs reworking my Kubernetes Cluster"
 date: 2022-06-26T11:59:15-05:00
-draft: false
+draft: true
 tags: ["bdv3", "kubernetes", "relevant"]
 ---
 
