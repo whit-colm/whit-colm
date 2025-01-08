@@ -1,5 +1,5 @@
 theme = "congo"
-#baseURL = "https://whits.io/"
+#baseURL = "https://whits.io"
 title = "whits.io"
 languageCode = "en-US"
 languageName = "English"
@@ -11,11 +11,11 @@ weight = 1
 [params.author]
 name = "Whit Huntley"
 image = "imgs/professionalA-tiny.jpg"
-headline = "Computer weirdo & CS undergrad @ UNCC."
-bio = "Computer person"
+headline = "**[*she/her*]** - Computer weirdo & CS undergrad @ UNCC."
+bio = "Developer, operator, over-engineerer. I have been programming computers in one capacity or another since the age of 13."
 links = [
     { email = "mailto:hello@whits.io"},
     { github = "https://github.com/whit-colm"},
     { linkedin = "https://linkedin.com/in/whit-colm"},
-    { bluesky = "https://bsky.app/profile/whits.io" }
+    { bluesky = "https://bsky.app/profile/did:plc:jeptbfcktk2a2f4myjzqyrs3" }
 ]
