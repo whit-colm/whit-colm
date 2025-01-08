@@ -22,9 +22,10 @@ The cron job runs a shell script which does the following:
 6. Ownership of `.../public` is changed to `www-data:www-data`
 7. The contents of `.../public/` is moved into `/var/www/whits.io/public/`
 8. The new most recent hash is stored in `./main.hash`, and the process repeats.
-9. Clean-up steps
 
 The script used is available [on the site's GitHub repo](https://github.com/whit-colm/whitsio/blob/main/refresh.sh)
+
+It is worth noting that due to how old Debian is, Go had to be installed via backports and Hugo from the `.deb` from their GitHub releases page.
 
 ---
 
