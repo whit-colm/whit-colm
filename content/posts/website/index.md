@@ -1,5 +1,6 @@
 +++
 date = 1736141688
+lastmod = 1736474284
 draft = false
 showReadingTime = true
 title = 'Bringing Back `whits.io`'
@@ -25,7 +26,7 @@ The cron job runs a shell script which does the following:
 
 The script used is available [on the site's GitHub repo](https://github.com/whit-colm/whitsio/blob/main/refresh.sh)
 
-It is worth noting that due to how old Debian is, Go had to be installed via backports and Hugo from the `.deb` from their GitHub releases page.
+It is worth noting that due to how old Debian is, Go had to be installed via backports and Hugo from the `.deb` from their GitHub releases page (specifically the extended version for webp support).
 
 ---
 
