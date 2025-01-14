@@ -1,6 +1,6 @@
 ---
 title: "You Streetpassed Me? In 2025??"
-slug: "streetpass"
+slug: "strtpas"
 showDate: false
 showReadingTime: false
 showEdit: false
