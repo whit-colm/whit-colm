@@ -14,23 +14,24 @@ enableSearch = false
   layoutBackgroundBlur = true
 
 [article]
-  showDate = true
-  showDateUpdated = true
+  editAppendPath = true
+  editURL = "https://github.com/whit-colm/whitsio/tree/main/content/"
+  invertPagination = false
   showAuthor = true
   showAuthorBottom = true
   showBreadcrumbs = true
+  showComments = false
+  showDate = true
+  showDateUpdated = true
   showDraftLabel = true
   showEdit = false
-  editURL = "https://github.com/whit-colm/whitsio/tree/main/content/"
-  editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
-  invertPagination = false
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = false
-  showComments = false
+  showZenMode = true
 
 [list]
   showBreadcrumbs = true

@@ -7,6 +7,7 @@ title = 'Dialing-In Coffee Notes'
 summary = "A set of personal notes and logs in my attempts to get not-half-bad at coffee making."
 description = "Some notes of mine while I attempt to get not-half-bad at Coffee making."
 tags = ["cooking"]
+showHero = true
 +++
 
 I never really liked coffee, it was always a bit too harsh and the effort involved in adding a myriad syrups to lessen the blow never really seemed worth it. However, in late 2024 I was visited by a close online friend who lives in Aotearoa. Being adjacent to Australia, there is a bit of a culture of coffee snobbery. The morning after her arrival tried to have a cup from Mr Coffee machine's pot and almost spit it out. We went out and she bought single-origin grounds (no actual grinder was at available) and using my digital electric kettle instead of the Mr. Coffee heating element, she brewed the first pot of coffee I actually cared enough to finish unadulterated. That experience, along with the fact we will likely see each other again and I do not wish to offend her most delicate sensibilities (🩵), has caused me to actually take a crack at coffee.
