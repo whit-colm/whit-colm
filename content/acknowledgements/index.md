@@ -9,7 +9,7 @@ showPagination: false
 showTableOfContents: false
 ---
 
-This website is made in [Hugo](https://gohugo.io/) with James Panther's [Congo](https://jpanther.github.io/congo/) theme.
+This website is made in [Hugo](https://gohugo.io/) with Nuno Coração's [Blowfish](https://blowfish.page/) theme.
 
 Unless otherwise stated, all original written human language content on whits.io is licensed for use, modification, and redistribution under the CreativeCommons BY-NC-SA 4.0 license, [available in English here](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
