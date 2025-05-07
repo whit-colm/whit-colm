@@ -1,18 +1,23 @@
-colorScheme = "Sapphire"
+colorScheme = "ocean"
 defaultAppearance = "dark"
 enableCodeCopy = true
 enableImageWebp = true
 enableRobotsTXT = true
+enableSearch = false
 
 [homepage]
-  layout = "profile"
+  layout = "background"
   showRecent = true
   recentLimit = 4
+  cardView = true
+  homepageImage = "imgs/wobenakik.jpg"
+  layoutBackgroundBlur = true
 
 [article]
   showDate = true
   showDateUpdated = true
   showAuthor = true
+  showAuthorBottom = true
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
