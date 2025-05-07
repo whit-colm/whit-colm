@@ -10,7 +10,7 @@ enableSearch = false
   showRecent = true
   recentLimit = 4
   cardView = true
-  homepageImage = "imgs/wobenakik.jpg"
+  homepageImage = "imgs/winnegance.jpg"
   layoutBackgroundBlur = true
 
 [article]
