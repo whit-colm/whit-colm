@@ -2,7 +2,7 @@
 showPagination: false
 ---
 {{< lead >}}
-Seeking professional opportunities in Linux system administration and development; focusing on using existing technology to base new reliable, scalable, and maintainable innovation. 
+Seeking roles in technology and collaborative environments, from technical support and software development to DevOps and infrastructure automation. Passionate about leveraging scripting, cloud tools, and systematic problem-solving to build reliable systems. Committed to continuous learning and delivering maintainable solutions that bridge user needs with technical innovation.
 {{< /lead >}}
 
 {{< alert key >}}

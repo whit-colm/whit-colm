@@ -11,8 +11,8 @@ weight = 1
 [params.author]
 name = "Whit Huntley"
 image = "imgs/professionalA-tiny.jpg"
-headline = "**[*she/her*]** - Computer weirdo & CS undergrad @ UNCC."
-bio = "Developer, operator, over-engineerer. I have been programming computers in one capacity or another since the age of 13."
+headline = "**[*she/her*]** - Building systems that outlast fads, empower teams, and scale fearlessly."
+bio = "Developer, operator, over-engineerer. I have been banging my head against computers in one capacity or another since the age of 13."
 links = [
     { email = "mailto:hello@whits.io"},
     { github = "https://github.com/whit-colm"},

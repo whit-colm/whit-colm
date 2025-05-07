@@ -1,6 +1,6 @@
 +++
 date = 1736141688
-lastmod = 1736474284
+lastmod = 1745551657
 draft = false
 showReadingTime = true
 title = 'Bringing Back `whits.io`'
@@ -8,6 +8,10 @@ summary = "After far too many years offline due to self-impose infrastructure ob
 description = "Notes on relaunching my website"
 tags = ["relevant"]
 +++
+
+{{< alert >}}
+There's a serious issue in Hugo v0.146 and how it has reworked a lot of the shortcodes that makes building sites impossible with congo (and many other themes). [congo issue](https://github.com/jpanther/congo/issues/1049), [blowfish PR](https://github.com/nunocoracao/blowfish/pull/2055).
+{{</ alert >}}
 
 Dollar short and a day (or 1,461) late, but I'm finally bringing my old website back online. I've never really been one for front-end webstuff, but I *am* very fond of rambling so I've been itching to get it working again. It's just a [hugo](https://gohugo.io) static site ([congo theme](https://jpanther.github.io/congo/)) with my patent migraine backend infrastructure behind it.
 
