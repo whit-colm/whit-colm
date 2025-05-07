@@ -15,7 +15,7 @@
 
 [[main]]
     name = "Résumé"
-    url = "/docs/resume-r.pdf"
+    url = "https://files.whits.io/resume-p.pdf"
     weight = 90
     [main.params]
         icon = "file-user-solid"
