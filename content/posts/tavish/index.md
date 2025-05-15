@@ -58,29 +58,38 @@ Due to the amount of text data and my curiosity to join a bandwagon, I felt solv
 
 ## Hosted
 
-I started using a hosting solution to test my broad idea, and  it working can be built on or used (I needed a CV anyway). The LLM I chose was DeepSeek-R1, chosen after a (rather casual) comparison against Claude for being more accurate (ChatGPT was not considered due to highly restrictive upload limits on the free plan). I use LibreOffice writer so I export my CV as an XML file which is what I upload.
+I started using a hosting solution to test my broad idea, and  it working can be built on or used (I needed a CV anyway). The LLM I chose was DeepSeek-R1; after a (rather casual) comparison against Claude, DeepSeek tended to be more accurate (ChatGPT was not considered due to highly restrictive upload limits on the free plan). I use LibreOffice writer so I export my CV as an XML file which is what I upload. The prompt gives me a fitness score between elements on my CV and the job listing, along with pointers for drafting a cover letter.
+
+I have created about a dozen applications using this, here's roughly what my process looked like:
+
+1. Initially skim through each listing, looking for the summary and disqualifying factors (e.g. "5+ years experience" or "we cannot sponsor visas at this time" [for NZ-based jobs]). This data tends to be in the first ~3 lines and the final third (which is mostly bullet points). This takes around 15 seconds per-listing.
+2. If I don't see that, I will feed the job description into Tavish. Sometimes listings end up putting the disqualifying factors somewhere outside the above places, and Tavish catches them. Using the result I determine if I want to consider applying: 60% for US jobs, 90%  for NZ jobs. This takes about 30-45 seconds depending on how long it wants to think.
+3. This is the first time I actually read the listing properly. If I think it's a good fit, then I will send in a submission and make an entry on my job spreadsheet.
+    - If asked to draft a cover letter, I use a cover letter template which predates this idea in conjunction with the key ideas Tavish gave to me and my own reading. I know I could automate the cover letter process too, but as it's something generally read by humans, I don't feel the need to 
 
 {{< details summary="Prompt" >}}
 
-[Today is $DATE] Given my attached CV and the following job description, please evaluate my fitness for the position (think carefully and be realistic. I would rather be told no more than waste my time on a very likely rejection). Give a fitness rating between my CV and the job description as a percentage and explain your verdict.
+Note that the `${VARIABLES}` are manually populated; they're included to show what *would* go there. I understand this demonstration does not *super* work if I don't populate the actual job listing, but I don't want to name companies just in case someone does not like the idea I have used AI, even if tangentially related, to my job listing.
 
-I have given you my complete CV and the full job listing. Do not make claims about either if you cannot directly cite them.
-
-- I am applying for entry-level positions.
-- If and only if the position is based in New Zealand you must take into consideration that I will require a visa to work, whereas other candidates may not. Note this in the reasoning but it should not affect the fitness rating itself (as the rating is solely between my CV and the job); the exception to this is if the job description states outright it will not support a visa, then the fitness is 0%.
-- If the position asks for than 3+ years of professional experience with any given technology I am not a good fit (however an argument might be made for <3 years if I have enough highly relevant personal or academic work).
-- There must be a strong match between a majority of skills on the job listing and my CV.
-- There is a certain flexibility regarding technologies listed and similar items on my CV, but consider the overlap between the two more holistically rather than expecting 100% exact matches. Many skills are at least partially transferable.
-
-If and only if you think I should apply, please also provide specific, relevant, and extremely brief feedback for drafting the cover letter in 1-3 sentences.
-
-```
-Job Listing Title: "${COPY_PASTE}"
-Company: ${COPY_PASTE}
-Location: ${COPY_PASTE}
----
-${COPY_PASTE}
-```
+> [Today is ${DATE}] Given my attached CV and the following job description, please evaluate my fitness for the position (think carefully and be realistic. I would rather be told no more than waste my time on a very likely rejection). Give a fitness rating between my CV and the job description as a percentage and explain your verdict.
+> 
+> I have given you my complete CV and the full job listing. Do not make claims about either if you cannot directly cite them.
+> 
+> - I am applying for entry-level positions.
+> - If and only if the position is based in New Zealand you must take into consideration that I will require a visa to work, whereas other candidates may not. Note this in the reasoning but it should not affect the fitness rating itself (as the rating is solely between my CV and the job); the exception to this is if the job description states outright it will not support a visa, then the fitness is 0%.
+> - If the position asks for than 3+ years of professional experience with any given technology I am not a good fit (however an argument might be made for <3 years if I have enough highly relevant personal or academic work).
+> - There must be a strong match between a majority of skills on the job listing and my CV.
+> - There is a certain flexibility regarding technologies listed and similar items on my CV, but consider the overlap between the two more holistically rather than expecting 100% exact matches. Many skills are at least partially transferable.
+> 
+> If and only if you think I should apply, please also provide specific, relevant, and extremely brief feedback for drafting the cover letter in 1-3 sentences.
+> 
+> ```
+> Job Listing Title: "${COPY_PASTE}"
+> Company: ${COPY_PASTE}
+> Location: ${COPY_PASTE}
+> ---
+> ${COPY_PASTE}
+> ```
 
 {{</ details >}}
 
