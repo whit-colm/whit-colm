@@ -8,7 +8,7 @@ enableSearch = false
 [homepage]
   layout = "background"
   showRecent = true
-  recentLimit = 4
+  showRecentItems = 3 # TODO: Make 6 when written more
   cardView = true
   homepageImage = "imgs/winnegance.jpg"
   layoutBackgroundBlur = true
