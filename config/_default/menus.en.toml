@@ -9,11 +9,6 @@
   weight = 20
 
 [[main]]
-    name = "Education"
-    url = "/edu"
-    weight = 50
-
-[[main]]
     name = "Résumé"
     url = "https://files.whits.io/resume-p.pdf"
     weight = 90

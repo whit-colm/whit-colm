@@ -2,6 +2,7 @@
 title: "About Me"
 slug: "about"
 date: "2025-01-04T20:06:25-05:00"
+lastmod: 1749928144
 showDate: false
 showReadingTime: false
 showEdit: false
@@ -16,7 +17,7 @@ Hello! ¡Hola! 你好！ Kia ora!
 
 I'm Whit, a technologist driven by scalable systems and creative problem-solving. My journey with technology began over a decade ago with Python toys and video game servers and has since evolved into a love for building scalable infrastructure and solving real-world problems through automation.
 I thrive in collaborative environments - whether leading backend teams for university projects or attending conferences. If I'm not working on my next big thing, I'm tinkering with the latest trends in tech or down a rabbit-hole teaching myself something new.
-I am currently pursuing Junior SRE & DevOps roles, aiming to specialize in high-performance computing in the Kubernetes ecosystem. From the U.S. to Aotearoa, a global outlook informs my approach to inclusive, adaptable solutions. Wherever my future takes me, I'm driven by a simple mantra: Build systems that outlast fads, empower teams, and scale fearlessly.
+I am interested in SRE & DevOps roles, specializing in high-performance computing and the Kubernetes ecosystem. From the U.S. to Aotearoa, a global outlook informs my approach to inclusive, adaptable solutions. Wherever my future takes me, I'm driven by a simple mantra: Build systems that outlast fads, empower teams, and scale fearlessly.
 
 I am looking for opportunities to work following my graduation both in the United States (where I am able to work without restriction) and New Zealand (where I am Visa Ready for any accredited employer).
 
