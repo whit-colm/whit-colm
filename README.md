@@ -5,7 +5,7 @@ I'm Whit, DevOps-type hobbyist developer turned student turned actually employed
 ### ~~*Jpegs I've seen before*~~ Very Very Skilled Tech Stack
 
 <div style="text-align:center">
-    <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoSize=auto&labelColor=EFEFEF"></a>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoSize=auto&labelColor=EFEFEF">
     <a href="https://github.com/dotfilesh/ops"><img alt="Static Badge" src="https://img.shields.io/badge/%22Pain%22-326CE5?style=for-the-badge&logo=kubernetes&logoSize=auto&labelColor=EFEFEF"></a>
     <img alt="Static Badge" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=1E2650&logoSize=auto&labelColor=EFEFEF">
     <img alt="Static Badge" src="https://img.shields.io/badge/Rust-D34516?style=for-the-badge&logo=rust&logoColor=1E2650&logoSize=auto&labelColor=EFEFEF">
