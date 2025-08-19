@@ -13,9 +13,9 @@ showTableOfContents = false
 +++
 
 {{< zenmode-enabled-by-default >}}
+{{< katex >}}
 
-
-I never really liked coffee, it was always a bit too harsh and the effort involved in adding a myriad syrups to lessen the blow never really seemed worth it. However, in late 2024 I was visited by a close online friend who lives in Aotearoa. Being adjacent to Australia, there is a bit of a culture of coffee snobbery. The morning after her arrival tried to have a cup from Mr Coffee machine's pot and almost spit it out. We went out and she bought single-origin grounds (no actual grinder was at available) and using my digital electric kettle instead of the Mr. Coffee heating element, she brewed the first pot of coffee I actually cared enough to finish unadulterated. That experience, along with the fact we will likely see each other again and I do not wish to offend her most delicate sensibilities (🩵), has caused me to actually take a crack at coffee.
+My notes in dialing in my coffee following getting "into" it after a friend from Aotearoa visited me in late 2024.
 
 # Equipment
 
@@ -32,8 +32,6 @@ On a lark, I went to Whole Foods and bought two bags of store-brand single origi
 
 # Results
 
-{{< katex >}}
-
 | Date | Beans | Temp[^1] | Ratio[^2] | Pour | Result |
 |--:|:--|--:|--:|:--|:--|
 | 2025-01-04 | WF Costa Rica Light | 80 | 1:15 | Immersed until the largest of the bubbles popped (≤5 seconds) then drained | Initial test; I don't have anything to compare it to. |
@@ -43,6 +41,7 @@ On a lark, I went to Whole Foods and bought two bags of store-brand single origi
 | 2025-01-15 | WF Colombia Light | 80 | 1:14.89 | Under partial supervision of NZ friend (very late in Aotearoa as I did it so she may not have paid the best attention). Water was filled to bloom, agitated with the back side of a plastic spoon, and then drained. As it drained the water was refilled without stopping the drip until ~350mL was in the pot. | Not as burnt as the 8th, but not *good*. Tastes like the very best of coffee-machine-coffee, but nowhere near as magnificent as what I otherwise get to experience. |
 | 2025-05-14 | WF Colombia Light | 88 | 1:16 | Made by visiting NZ friend. Left initially to bloom for 30 seconds and then dropped, topped off continuously until all water was added (3 times). Checking the date, I will note that both coffees are a month or two past their best-by date. | It was *fine*. I made the mistake of immediately adding creamer as I forgot my procedure specifics and I got distracted by something and forgot to drink it while hot. |
 | 2025-05-15 | WF Costa Rica Light | 92 | 1:20 | Another by NZ friend. Left to sit for 60 seconds before dropping due to more being brewed, continuously refilled after. | A bit bitter, but not burnt. This has me questioning if the bitterness is more a trait of the coffee than the maker. While this establishes a hierarchy of me < NZ friend < my partner in terms of talent, I still lack enough data to emulate my betters. |
+| 2025-05-18 | WF Colombia Light | 90 | 1:\\(13.\bar{3}\\) | Prep done by me, pour by NZ friend. I thought I added 600mL of water when I actually added 500, which is the cause of the ratio. | Stronger, but not nearly as bitter as even a 1:20 🇨🇷 blend. |
 <!-- | YYYY-MM-DD | Weh | XX | 1:XX | Aliquid enim repellendus vel dolor reprehenderit exercitationem qui molestiae. Velit dignissimos sed est aut aperiam laboriosam quaerat. Magnam molestiae culpa nisi suscipit. | Nam optio rerum sed. Cupiditate aliquid ut incidunt adipisci architecto ex sed. | -->
 
 [^1]: Temperature measured in celsius

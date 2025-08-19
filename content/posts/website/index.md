@@ -33,7 +33,7 @@ The cron job runs a shell script which does the following:
 7. The contents of `.../public/` is moved into `/var/www/whits.io/public/`
 8. The new most recent hash is stored in `./main.hash`, and the process repeats.
 
-The script used is available [on the site's GitHub repo](https://github.com/whit-colm/whitsio/blob/main/refresh.sh)
+The script used is available [on the site's GitHub repo](https://github.com/whit-colm/whit-colm/blob/main/refresh.sh)
 
 It is worth noting that due to how old Debian is, Go had to be installed via backports and Hugo from the `.deb` from their GitHub releases page (specifically the extended version for webp support).
 

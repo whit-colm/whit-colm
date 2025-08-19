@@ -1,4 +1,4 @@
-module github.com/whit-colm/whitsio
+module github.com/whit-colm/whit-colm
 
 go 1.23.4
 
