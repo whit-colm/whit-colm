@@ -15,7 +15,7 @@ enableSearch = false
 
 [article]
   editAppendPath = true
-  editURL = "https://github.com/whit-colm/whitsio/tree/main/content/"
+  editURL = "https://github.com/whit-colm/whit-colm/tree/main/content/"
   invertPagination = false
   showAuthor = true
   showAuthorBottom = true
