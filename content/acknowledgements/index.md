@@ -17,12 +17,12 @@ Unless otherwise stated, all software (both incomplete or complete) is licensed 
 
 {{< details summary="**Website build summary**" >}}
 ```
-Last build:
-- Commit:   %commit%
+***Last build***
+- Commit:   {{< hash >}}
 - Built at: {{< now >}}
 
-- Hugo Version: {{< hugo-version >}}
-- Module:       {{< theme-module >}}
-- Module ver:   {{< theme-version >}}
+- Hugo Version:   {{< hugo-version >}}
+- Theme Module:   {{< theme-module >}}
+- Theme Version:  {{< theme-version >}}
 ```
 {{< /details >}}

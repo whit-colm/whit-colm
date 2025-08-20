@@ -1,0 +1,14 @@
+{{ $data := dict }}
+{{ $path := "data/git.json" }}
+{{ with resources.Get $path }}
+  {{ with . | transform.Unmarshal }}
+    {{ $lastCommit := .lastCommitShort }}
+    {{ if $lastCommit }}
+      {{ $lastCommit }}
+    {{ else }}
+      [unknown]
+    {{ end }}
+  {{ end }}
+{{ else }}
+  [unknown]
+{{ end }}
