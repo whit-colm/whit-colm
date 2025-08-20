@@ -9,4 +9,4 @@ Welcome to my web hole! This is an ostensible portfolio website, blog with quest
 Current PGP Public keyring can be downloaded [here](/docs/fullkeyring.asc)
 {{< /alert >}}
 
-This site was last updated on {{< now >}}.
+This site was last updated on {{< nowFmt >}}.

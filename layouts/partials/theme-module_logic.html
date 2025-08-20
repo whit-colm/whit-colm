@@ -1,0 +1,6 @@
+<!-- Parses config/_default/module.toml to extract current theme -->
+{{ $path := path.Join "config" "_default" "module.toml" }}
+{{ $data := os.ReadFile $path }}
+{{ $mod  := transform.Unmarshal $data }}
+{{ $imports := collections.Index $mod.imports 0 }}
+{{ $imports.path }}

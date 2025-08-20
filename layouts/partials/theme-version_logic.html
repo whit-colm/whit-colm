@@ -1,0 +1,20 @@
+{{ $path := path.Join "config" "_default" "module.toml" }}
+{{ $data := os.ReadFile $path }}
+{{ $mod  := transform.Unmarshal $data }}
+{{ $imports := collections.Index $mod.imports 0 }}
+{{ $themeURL := $imports.path }}
+
+{{ $themeURLcleanedRE := strings.Replace $themeURL "/" "\\/" }}
+{{ $regexComponents := slice `(?m)^[[:blank:]]*` $themeURLcleanedRE `[[:blank:]]+(([v\.]\d+){3}(-[\d\w\.-]+)?)([[:blank:]]\/\/ indirect)?$` }}
+{{ $regex := collections.Delimit $regexComponents "" }}
+
+{{ $goModPath := path.Join "go.mod" }}
+{{ $goModContent := os.ReadFile $goModPath }}
+
+{{ $versionOutput := strings.FindRESubmatch $regex $goModContent }}
+{{ if $versionOutput }}
+    {{ $index := slice 0 1 }}
+    {{ index $versionOutput $index }}
+{{ else }}
+    Unknown
+{{ end }}
