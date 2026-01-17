@@ -2,7 +2,7 @@
 title: "Education Portal"
 slug: "edu"
 descriptions: "Notes for myself and peers relevant to my studies at UNCC."
-date: 1736105201
+date: 1747321802
 showDate: false
 showReadingTime: false
 showEdit: false
@@ -10,18 +10,12 @@ showAuthor: false
 showPagination: false
 ---
 
+{{< zenmode-enabled-by-default >}}
+
 {{< lead >}}
-Hub for resources for myself and peers relevant to my studies at UNCC.
+Hub for resources for myself and peers.
 {{< /lead >}}
 
 {{< alert >}}
-If you are a potential employer looking for details on my academic career, this
-page is probably not what you are looking for. Please reach out to me via email
-and I will happy get you a copy of my transcript or other necessary info.
+This page is now deprecated! I achieved my bachelor's at UNCC at the end of the Spring 2025 semester and am no longer a student. Thank you to everyone who has supported me throughout my academic career!
 {{< /alert >}}
-
-Starting with the SU24 semester, all information for group projects is stored
-on University Google Cloud, GitHub, or a class-specific tool. After the end of
-the semester, data is archived on my personal cloud. If you need to access a
-previous semester's work, please reach out **with your university email** to me
-at `whuntle5@charlotte.edu`. Thank you.
