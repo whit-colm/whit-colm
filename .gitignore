@@ -15,3 +15,6 @@ hugo.linux
 # Personal notes
 *.nocommit
 /assets/data/git.json
+
+*.local.*
+*.local/
