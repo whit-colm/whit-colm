@@ -1,10 +1,10 @@
 ---
 title: "Thick Crust Rosemary-Parmesan Bread"
-description: "A crusty, cheesy Dutch oven loaf loaded with rosemary and parmesan."
-summary: "Thick-crusted Dutch oven bread with rosemary and parmesan baked into the crumb and scattered on top."
+description: "Rosemary and parmesan bread in a Dutch oven."
+summary: "A big round loaf with rosemary and parmesan baked in and more on top."
 author: ["Whit Huntley"]
 date: 1774898010
-draft: true
+draft: false
 links-as-notes: true
 papersize: A4
 showReadingTime: false
