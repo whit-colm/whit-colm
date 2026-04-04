@@ -1,9 +1,8 @@
 ---
-title: "Rosemary-Parmasean "
-description: "Recipe shit"
-summary: "Reference for thick-crust Rosemary Parmesean Bread"
+title: "From-Scratch Pizza Dough"
+description: "Pizza dough. Three balls. One or two days."
+summary: "A straightforward pizza dough that makes three ~28cm pies."
 author: ["Whit Huntley"]
-date: 1768685294
 draft: true
 links-as-notes: true
 papersize: A4
@@ -11,104 +10,65 @@ showReadingTime: false
 tags: ["cooking"]
 ---
 
+{{< wakelock >}}
+
 | | |
 |:--:|:--|
-| ⏲️ Time | **1hr** - 45 min work + 15 min cook |
-| 🫂 Serves | **Like 2** if you're both really hungry. |
-| 📆 Holds | **3 days** at room temperature |
-| | **2-3 months** (freeze) |
-| | **24hrs** after boil (refrigerate) |
+| ⏲️ Time | **~1hr 30min** same-day — 15 min work, 45-60 min rise, ~30 min stretch and bake. Optional 2-3 day cold ferment for better flavor. |
+| 🫂 Serves | **3 pizzas** (~28cm / 11in each) |
+| 📆 Holds | **3 days** in the fridge in sealed containers. Freezes well for longer. |
 
-# Dependencies
+# Prerequisites
 
 ## Tools
 
-- [ ] Oven
-- [ ] Cooktop
-- [ ] Clean work surface
-- [ ] Stand mixer + bread hook + paddle attachment
-- [ ] Dutch oven
-- [ ] Kitchen towel xor plastic wrap
+- [ ] Oven OR pizza oven
+- [ ] Pizza stone or steel[^1] (if using home oven)
+- [ ] Pizza peel
+- [ ] Stand mixer w/ dough hook OR clean work surface for hand kneading
+- [ ] Bench scraper or knife (for dividing dough)
+- [ ] Kitchen towel or plastic wrap
+- [ ] Airtight containers (only needed if cold fermenting)
+
+[^1]: A stone or steel needs to preheat in the oven for 30-45 minutes at full temperature to actually work. Don't skip this — a cold stone is just a heavy tile.
 
 ## Ingredients
 
-> Measure by weight for optimal results
+- [ ] **500g** tipo 00 or all-purpose flour
+- [ ] **8g** active dry yeast (1 standard packet)
+- [ ] **7g** kosher salt
+- [ ] **338mL** warm water (~40° ± 2°)
+- [ ] **13mL** olive oil
 
-- [ ] **500g** bread flour
-- [ ] **XXXg** parmasean cheese[^1] (divided ??? + ???)
-- [ ] **5g** chopped fresh rosemary (+ topping)
-- [ ] **5g** kosher salt
-- [ ] **12mL** olive oil (+ enough to oil a bowl, brushing)
-- [ ] **315mL** warm water (~40° ± 2°)
-- [ ] **15g** unsalted butter - melted but cool
-- [ ] **15g** sugar[^1]
-- [ ] **7g** active dry yeast (standard packet)
-- [ ] **6g** salt
+## Additional items
 
-Additional items:
-
-- [ ] All-purpose flour for your work surface + fixing the dough if need be)
-- [ ] Arbitrary amount of fancy-ass salt or cinnamon sugar or something for topping.
-
-[^1]: Or if you don't like intelectual property, La Paulina Queso Reggianito is arguably better.
-[^2]: Original recipe suggested either brown or granulated sugar. I use very fine white sugar. I don't think it matters because your pet yeast is hungry for whatever you wanna give her.
-
-## Alkaline Solution
-
-- 55g/L ratio of sodium bicarbonate (baking soda) to water.
+- [ ] Flour for dusting.
+- [ ] Olive oil for coating dough balls.
+- [ ] Semolina or cornmeal for dusting the pizza peel (prevents sticking — flour alone burns at these temps).
 
 # Make dough
 
-1. **Activate yeast** by *gently* mixing water, sugar, and yeast. Let it sit for ~5 minutes (until it gets foamy).
-2. **Start mixing** in the salt, butter, and 400g flour.
-  - **If using a stand mixer** 
-    - Set bread hook to low and run for 1 minute.
-    - If needed, scrape down sides of bowl into the dough.
-    - Beat on low speeds until the dough comes together (~2 min).
-  - **If working by hand**
-    - Knead the dough until it starts coming together
-    - Add the remaining 100g of flour
-    - Continue to knead until dough comes together.
-  - If dough is extremely sticky, add around 30g more flour. If dough is not coming together whatsoever, drip in *very tiny* amounts of water until it does.
-3. **Knead the dough** to make sure everything is together well.
-  - **If using a stand mixer** beat on low-medium speed for ~2 mins.
-  - **If working by hand** Knead for an additional ~2-5 mins.
-4. **Allow dough to rest** covered by towel for 10-30 mins.
-  - Do not attempt to proof it; it just needs to chill.
+1. Combine the warm water and yeast in a small bowl. Let it sit for 5-10 minutes until it's foamy on top.
+2. Add flour and salt to the stand mixer bowl (or a large mixing bowl). Give it a quick stir to combine.
+3. Pour in the yeast-water and olive oil. Mix with the dough hook on low until a shaggy dough forms (~2 mins). If kneading by hand, stir until it comes together then turn out onto a floured surface.
+4. Knead on medium speed for ~8 minutes (or by hand: push with the heel of your palm, reform into a ball, repeat). The dough is done when it's pillowy and smooth with a slightly tacky but not sticky surface. It should pass the windowpane test — pinch off a small piece and stretch it thin enough to see light through without tearing.
 
-# Prepare to cook
+# Divide and proof
 
-> **Bonus trick**: as according to a friend, baking the baking soda before the bath produces a much better crust and coloration.
+5. Turn the dough out onto a lightly floured surface. Using a bench scraper or knife, divide into 3 equal pieces.
+6. Shape each piece into a boule: fold the edges under itself while rotating against the surface to build tension. Set each boule on the floured surface and dab the tops with a bit of olive oil to keep them from drying out.
+7. Cover with a damp towel or plastic wrap. Let rise at room temperature until roughly doubled, 45 minutes to 1 hour.
 
-1. Begin preheating oven to 200°.
-2. Set out sheet pans with silicone baking mats or greased parchment paper.
-3. Prepare alkaline solution in sauce pan and begin to boil.
+**At this point you have two paths:**
 
-# Shape pretzels
+- **Same-day**: go straight to stretching (step 8).
+- **Cold ferment (recommended if you have time)**: transfer each boule to its own oiled airtight container — large enough for the dough to double again. Refrigerate for 2-3 days. The slow cold rise develops a noticeably nuttier, more complex flavor. When you're ready to use them, pull the containers out and let the dough come to room temperature on a floured surface under a towel, 30-45 minutes.
 
-1. **Transfer dough** onto *lightly floured*[^3] work surface. Cut into smaller pieces for ease of work.
-2. **Begin rolling** dough into a rope form. Cut again if needed as you quickly realize how much of a devious little trickster volume is.
-  - Start by rolling each section from the middle outwards with the palm of your hand until it forms a snake.
-3. **Actually cut** rope into ~3.5-5cm chunks about 2cm in diameter. Place to the side.
-4. **If the dough is getting difficult** then your pet dough is tired. Give her a break.
-  - Stop what you're doing
-  - Lightly cover dough with towel
-  - Come back in 10 minutes and see if she's feeling more relaxed.
+# Stretch and bake
 
-[^3]: This is something you want too little of vs too much. Otherwise it makes rolling the dough needlessly difficult.
-
-# Cook
-
-1. **Bring** alkaline solution to boil.
-2. **Place bites in solution** for around 10-15[^4] seconds. Quickly season them while they are still wet.
-  - Make sure the pieces are separated as they might fuse together.
-  - At this point, you can cover and refrigerate for up to a day if you do not intend to bake them now.
-3. **Bake** in oven until golden brown (~15 mins)
-
-[^4]: Too long and they will take on a metallic taste, too short and they won't develop the characteristic crust.
-
-# Preserving and Reheating
-
-- **Raw dough** can be refrigerated for up to a day or frozen in an airtight container for 2-3 months. Thaw dough in refrigerator overnight. Let sit at room temperature for an hour before cutting and boiling.
-- **Boiled dough** can be refrigerated for up to 24 hours before baking.
-- **Baked bites** can be frozen for up to 2-3 months. To reheat, place in oven at 175° for ~10 minutes. You can microwave them but like... don't.
+8. Place your pizza stone or steel on the middle rack and preheat the oven to 260° (max out your oven if it doesn't go that high). Give it a full 30-45 minutes to heat — you're heating the stone, not just the air. If using a pizza oven, follow its preheat instructions.
+9. Dust the pizza peel with semolina or cornmeal.
+10. Place one dough ball on a lightly floured surface. Press it out gently into a rough circle with your fingertips, flipping once or twice. Once you have about a 20cm disc, pick it up and drape it over both fists (knuckles up). Slowly rotate it, letting gravity stretch it out to about 28cm. Don't overwork it — if the dough starts snapping back, set it down and let it rest for a couple of minutes, then try again.
+11. Lay the stretched dough onto the prepared peel. Add your toppings — go easy, an overloaded pizza won't slide off the peel and won't cook through. Less is more.
+12. Slide the pizza onto the hot stone with a quick back-and-forth jerk of the peel. Bake until the crust is puffed and charred in spots and the cheese is bubbling, about 5-7 minutes. In a pizza oven, this takes about 1 minute — rotate it halfway through.
+13. Pull it out, let it sit for a minute (the cheese is lava), slice, and eat. Repeat for the remaining dough balls.
