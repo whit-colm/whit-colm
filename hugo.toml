@@ -1,3 +1,7 @@
 baseURL = 'https://whits.io/'
 languageCode = 'en-us'
 title = 'whits.io'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
