@@ -44,7 +44,6 @@ in this section out ahead of time. -->
 - [ ] **6g** kosher salt
 - [ ] **15mL** olive oil (+ extra for brushing)
 - [ ] **320mL** warm water (~40° ± 2°)
-- [ ] **15g** unsalted butter - melted but cool
 - [ ] **7g** active dry yeast (standard packet)
 
 [^1]: Or if you don't like intellectual property, La Paulina Queso Reggianito is arguably better.
@@ -66,7 +65,7 @@ wanker and this is how I think. -->
 1. Combine the warm water and yeast in a small bowl or measuring jug. Give it 5-10 minutes until it's foamy on top — this is how you know your yeast is alive.
 2. Add flour, 100g of the parmesan, 4g rosemary, and salt to the stand mixer bowl. Run on low for a moment to combine the dry ingredients.
 3. Pour in the yeast-water mixture and the olive oil. Mix with the dough hook on low until it begins to come together (~3 mins).
-4. Increase speed to medium. After ~5 minutes of kneading, add the melted butter in a slow drizzle while the mixer runs — this lets the gluten develop before the fat coats the flour. Continue kneading until smooth and elastic (~10 mins total). You'll know it's done when you can pinch off a small piece and stretch it thin enough to see light through without it tearing (the windowpane test).
+4. Increase speed to medium and knead until smooth and elastic (~8-10 mins). You'll know it's done when you can pinch off a small piece and stretch it thin enough to see light through without it tearing (the windowpane test).
 5. Cover the bowl with a damp towel or plastic wrap and leave in a warm spot. Let rise for 1 hour or until roughly doubled.
 
 # Shape and proof
