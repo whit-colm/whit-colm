@@ -1,6 +1,6 @@
 ---
 date: 1736141688
-lastmod: 1746635305
+lastmod: 1775335808
 draft: false
 showReadingTime: true
 title: "Bringing Back `whits.io`"

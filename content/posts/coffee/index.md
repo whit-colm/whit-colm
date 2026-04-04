@@ -1,6 +1,6 @@
 ---
 date: 1735927200
-lastmod: 1747317557
+lastmod: 1775335808
 draft: false
 showReadingTime: false
 title: "Dialing-In Coffee Notes"
