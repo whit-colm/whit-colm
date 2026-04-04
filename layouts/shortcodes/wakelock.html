@@ -1,0 +1,13 @@
+<script>
+(async function() {
+  if (!('wakeLock' in navigator)) return;
+  let lock = null;
+  async function req() {
+    try { lock = await navigator.wakeLock.request('screen'); } catch {}
+  }
+  await req();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') req();
+  });
+})();
+</script>

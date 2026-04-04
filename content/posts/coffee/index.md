@@ -1,16 +1,16 @@
-+++
-date = '2025-01-04T12:00:00-05:00'
-lastmod = 1747317557
-draft = false
-showReadingTime = false
-title = 'Dialing-In Coffee Notes'
-summary = "A set of personal notes and logs in my attempts to get not-half-bad at coffee making."
-description = "Some notes of mine while I attempt to get not-half-bad at Coffee making."
-tags = ["cooking"]
-showHero = true
-heroStyle = "background"
-showTableOfContents = false
-+++
+---
+date: 1735927200
+lastmod: 1747317557
+draft: false
+showReadingTime: false
+title: "Dialing-In Coffee Notes"
+summary: "A set of personal notes and logs in my attempts to get not-half-bad at coffee making."
+description: "Some notes of mine while I attempt to get not-half-bad at Coffee making."
+tags: ["cooking"]
+showHero: true
+heroStyle: "background"
+showTableOfContents: false
+---
 
 {{< zenmode-enabled-by-default >}}
 {{< katex >}}

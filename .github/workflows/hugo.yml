@@ -20,7 +20,7 @@ on:
       - "hugo.toml"
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -81,9 +81,41 @@ jobs:
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+      - name: Install yq
+        run: |
+          sudo curl -sLo /usr/local/bin/yq "https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64"
+          sudo chmod +x /usr/local/bin/yq
       - name: Configure Git
         run: |
           git config core.quotepath false
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Propagate content dates
+        run: |
+          BEFORE="${{ github.event.before }}"
+          [[ -z "$BEFORE" || "$BEFORE" =~ ^0+$ ]] && exit 0
+
+          NOW=$(date '+%s')
+          CHANGED=$(git diff --name-only --diff-filter=ACMR "$BEFORE" HEAD -- 'content/**.md' || true)
+          [ -z "$CHANGED" ] && exit 0
+
+          for file in $CHANGED; do
+            [ -f "$file" ] || continue
+            [ "$(yq --front-matter=extract '.draft' "$file")" = "true" ] && continue
+
+            NEWLY_PUBLISHED=false
+            OLD=$(git show "$BEFORE:$file" 2>/dev/null) || NEWLY_PUBLISHED=true
+
+            if [ "$NEWLY_PUBLISHED" = false ]; then
+              [ "$(echo "$OLD" | yq --front-matter=extract '.draft')" = "true" ] && NEWLY_PUBLISHED=true
+            fi
+
+            if [ "$NEWLY_PUBLISHED" = true ]; then
+              yq -i --front-matter=process ".date = $NOW" "$file"
+            else
+              yq -i --front-matter=process ".lastmod = $NOW" "$file"
+            fi
+          done
       - name: Cache restore
         id: cache-restore
         uses: actions/cache/restore@v5
@@ -105,6 +137,13 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      - name: Push date changes
+        continue-on-error: true
+        run: |
+          git diff --quiet content/ && exit 0
+          git add content/
+          git commit -m "chore: propagate content dates"
+          git push
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

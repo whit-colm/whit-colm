@@ -11,6 +11,8 @@ showReadingTime: false
 tags: ["cooking"]
 ---
 
+{{< wakelock >}}
+
 | | |
 |:--:|:--|
 | ⏲️ Time | **~3hr 10min** - 20 min work, 2hr rise, 40 min bake, 10 min rest |

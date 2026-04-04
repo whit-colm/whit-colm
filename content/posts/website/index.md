@@ -1,13 +1,13 @@
-+++
-date = 1736141688
-lastmod = 1746635305
-draft = false
-showReadingTime = true
-title = 'Bringing Back `whits.io`'
-summary = "After far too many years offline due to self-impose infrastructure obstacles, It's time to actually start using my website again."
-description = "Notes on relaunching my website"
-tags = ["relevant"]
-+++
+---
+date: 1736141688
+lastmod: 1746635305
+draft: false
+showReadingTime: true
+title: "Bringing Back `whits.io`"
+summary: "After far too many years offline due to self-impose infrastructure obstacles, It's time to actually start using my website again."
+description: "Notes on relaunching my website"
+tags: ["relevant"]
+---
 
 {{< alert >}}
 There's a serious issue in Hugo v0.146 and how it has reworked a lot of the shortcodes that makes building sites impossible with congo (and many other themes). [congo issue](https://github.com/jpanther/congo/issues/1049), [blowfish PR](https://github.com/nunocoracao/blowfish/pull/2055).
