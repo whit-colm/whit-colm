@@ -5,7 +5,7 @@ description: "Pizza dough. Two balls. One or two days."
 summary: "A straightforward pizza dough that makes two ~28cm pies."
 author: ["Whit Huntley"]
 links-as-notes: true
-draft: true
+draft: false
 papersize: A4
 showReadingTime: false
 tags: ["cooking"]
@@ -56,6 +56,6 @@ tags: ["cooking"]
 
 **At this point you have two paths:**
 
-- **Same-day**: go straight to stretching (step 8).
+- **Same-day**: go straight to stretching. 
 - **Cold ferment (recommended if you have time)**: transfer each boule to its own oiled airtight container — large enough for the dough to double again. Refrigerate for 2-3 days. The slow cold rise develops a noticeably nuttier, more complex flavor. When you're ready to use them, pull the containers out and let the dough come to room temperature on a floured surface under a towel, 30-45 minutes.
 

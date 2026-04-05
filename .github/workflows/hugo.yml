@@ -101,20 +101,28 @@ jobs:
 
           for file in $CHANGED; do
             [ -f "$file" ] || continue
-            [ "$(yq --front-matter=extract '.draft' "$file")" = "true" ] && continue
 
-            NEWLY_PUBLISHED=false
-            OLD=$(git show "$BEFORE:$file" 2>/dev/null) || NEWLY_PUBLISHED=true
+            IS_DRAFT="$(yq --front-matter=extract '.draft' "$file")"
 
-            if [ "$NEWLY_PUBLISHED" = false ]; then
-              [ "$(echo "$OLD" | yq --front-matter=extract '.draft')" = "true" ] && NEWLY_PUBLISHED=true
+            NEWLY_ADDED=false
+            OLD_WAS_DRAFT=false
+            OLD=$(git show "$BEFORE:$file" 2>/dev/null) || NEWLY_ADDED=true
+
+            if [ "$NEWLY_ADDED" = false ]; then
+              [ "$(echo "$OLD" | yq --front-matter=extract '.draft')" = "true" ] && OLD_WAS_DRAFT=true
             fi
 
-            if [ "$NEWLY_PUBLISHED" = true ]; then
+            if [ "$NEWLY_ADDED" = true ]; then
+              # New file (draft or not): stamp date
               yq -i --front-matter=process ".date = $NOW" "$file"
-            else
+            elif [ "$OLD_WAS_DRAFT" = true ] && [ "$IS_DRAFT" != "true" ]; then
+              # Publication event (draft→published): clobber date
+              yq -i --front-matter=process ".date = $NOW" "$file"
+            elif [ "$OLD_WAS_DRAFT" = false ] && [ "$IS_DRAFT" != "true" ]; then
+              # Already-published content changed: bump lastmod
               yq -i --front-matter=process ".lastmod = $NOW" "$file"
             fi
+            # Existing draft still draft → no-op
           done
       - name: Cache restore
         id: cache-restore
