@@ -1,6 +1,6 @@
 ---
 title: "From-Scratch Pizza Dough"
-date: 1775346242
+date: 1775416296
 description: "Pizza dough. Two balls. One or two days."
 summary: "A straightforward pizza dough that makes two ~28cm pies."
 author: ["Whit Huntley"]
