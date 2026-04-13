@@ -3,13 +3,13 @@ date: "2026-04-04T21:28:46-04:00"
 lastmod: "2026-04-04T21:28:46-04:00"
 draft: true
 showReadingTime: true
-title: "YubiKey 5C NFC: Provisioning, PAM, and LUKS"
+title: "YubiKey Provisioning, PAM, and LUKS"
 summary: "A reference card for setting up a YubiKey from scratch on Arch Linux -- OpenPGP keys, FIDO2 SSH, PAM authentication, and full disk encryption."
 description: "Concise reference for provisioning a YubiKey 5C NFC with ed25519 OpenPGP keys, FIDO2 resident SSH keys, PAM login/sudo, and LUKS2 disk encryption on Arch Linux."
 tags: ["relevant"]
 ---
 
-Everything here was done on a YubiKey 5C NFC, firmware 5.4.3, on Arch Linux. Most of it generalises to any YubiKey 5 series and any systemd-based distro. The assumed starting point is a factory-reset key or one you're about to reset.
+Everything here was done on a set of YubiKey 5s on Arch Linux. Most of it generalises to systemd-based distro. The assumed starting point is a factory-reset key or one you're about to reset.
 
 ## Part 1: Provisioning
 
